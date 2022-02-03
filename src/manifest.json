@@ -15,7 +15,7 @@
   },
 
   "background": {
-    "service_worker": "js/app.js"
+    "service_worker": "js/pomodoro.js"
   },
 
   "permissions": [
