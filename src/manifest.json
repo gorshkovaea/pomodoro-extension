@@ -1,0 +1,24 @@
+{
+  "name": "Pomodoro",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "description": "A Chrome extension for your time management",
+  "icons": {
+    "128": "img/icon-128.png"
+  },
+
+  "action": {
+    "default_icon": "img/icon-128.png",
+    "default_title": "Pomodoro",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "js/app.js"
+  },
+
+  "permissions": [
+    "notifications"
+  ]
+}

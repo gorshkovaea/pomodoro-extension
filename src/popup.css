@@ -1,0 +1,65 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: #002654;
+}
+
+.timer {
+    color: #aa0000;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons > button {
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.buttons > button:hover {
+    opacity: 0.9;
+}
+
+#start-button,
+#stop-button {
+    background: linear-gradient(rgb(245 52 0) 2.9%, rgb(159 10 1) 94.81%);
+    border: 1px solid rgb(183 11 0);
+}
+
+#pause-button,
+#resume-button {
+    background: linear-gradient(rgb(215 215 215) 2.9%, rgb(56 56 56) 94.81%);
+    border: 1px solid rgb(137 137 137);
+    margin-left: 10px;
+}
+
+#stop-button,
+#pause-button,
+#resume-button {
+    display: none;
+}
